@@ -1,0 +1,43 @@
+p
+{
+    font-family: "Arial", "sans-serif";
+    font-size: 30pt;
+}
+
+h1 
+{
+    font-family: "Arial", "sans-serif";
+    font-size: 30pt;
+}
+
+.Component-box
+{
+    width:1000pt;
+}
+
+.tableListado {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.tableListado td, .tableListado th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tableListado tr:nth-child(even){background-color: #181818}
+.tableListado tr:nth-child(odd){background-color: #080808;}
+
+.tableListado tr:hover {background-color: #ddd;}
+
+.tableListado th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: black;
+  color: white;
+}
